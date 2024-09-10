@@ -5,10 +5,13 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
+  height: 100%;
+  min-height: 100%;
+  padding-bottom: 20px;
 }
 
 .menu {
-  margin-top: 20px;
+  padding-top: 12px;
 }
 
 .menu button {
@@ -67,11 +70,6 @@ img {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  color: rgb(255, 255, 255);
-  font-size: 12px;
-  margin-bottom: 8px;
+  position:fixed;
+    bottom:0;
 }
