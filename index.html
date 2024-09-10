@@ -11,6 +11,7 @@
     <div class="menu">
       <button onclick="showContent('guide')" class="active">Beranda</button>
       <button onclick="showContent('instructions')">Petunjuk</button>
+      <button onclick="showContent('readiness')">Kesiapan Belajar</button>
       <button onclick="showContent('objectives')">Tujuan Pembelajaran</button>
       <button onclick="showContent('diagnostic')">Asesmen Diagnostik</button>
       <button onclick="showContent('materials')">Bahan Ajar</button>
@@ -52,6 +53,15 @@
       <p>Selamat belajar!</p>
     </div>
 
+    <!-- Kesiapan Belajar -->
+    <div id="readiness" class="container content">
+      <h2>Kesiapan Belajar</h2>
+      <p>Bagaimana perasaan kalian hari ini?</p>
+      <a target="_blank" href="https://www.menti.com/al45xt18d4s7">
+        Isi Mentimeter
+      </a>
+    </div>
+
     <!-- Tujuan Pembelajaran -->
     <div id="objectives" class="container content">
       <h2>Tujuan Pembelajaran</h2>
@@ -75,7 +85,11 @@
         secara mendalam, sehingga mereka dapat memberikan bimbingan yang tepat
         dan sesuai dengan kemampuan masing-masing.
       </p>
-      <button onclick="accessDiagnostic()">Akses Asesmen Diagnostik</button>
+      <a
+        href="https://bit.ly/AsesmenDiagnostikPythagoras-sintya"
+        target="_blank"
+        >Akses Asesmen Diagnostik</a
+      >
     </div>
 
     <!-- Bahan Ajar -->
@@ -90,30 +104,52 @@
       <div class="card-container">
         <!-- LKPD Card -->
         <div class="card">
-          <img src="https://picsum.photos/160" alt="" srcset="" />
+          <img src="/lkpd.png" alt="" srcset="" />
           <h3>LKPD</h3>
 
           <p>Lembar Kerja Peserta Didik untuk mendalami Teorema Pythagoras.</p>
-          <button onclick="accessLkpd()">Akses LKPD</button>
+          <a
+            href="https://drive.google.com/file/d/1wsQpt5Guc8I3Esiot-Z3rLc5EVtS5HFD/view?usp=drive_link"
+            target="_blank"
+            >Akses LKPD</a
+          >
         </div>
 
         <!-- Bahan Ajar Card -->
         <div class="card">
-          <img src="https://picsum.photos/160" alt="" srcset="" />
+          <img src="/bahan.png" alt="" srcset="" />
           <h3>Bahan Ajar</h3>
           <p>
             Bahan ajar yang mendukung pembelajaran mengenai Teorema Pythagoras.
           </p>
-          <button onclick="accessMaterials()">Akses Bahan Ajar</button>
+          <a
+            href="https://drive.google.com/file/d/1_V0GynAgs-nQHEvhpvoLOO9GLciXd0PF/view?usp=sharing
+"
+            target="_blank"
+            >Akses Bahan Ajar</a
+          >
         </div>
 
         <!-- Video Pembelajaran Card -->
         <div class="card">
-          <img src="https://picsum.photos/160" alt="" srcset="" />
+          <img src="/video.png" alt="" srcset="" />
           <h3>Video Pembelajaran</h3>
 
           <p>Video penjelasan mengenai konsep Teorema Pythagoras.</p>
-          <button onclick="accessVideo()">Akses Video Pembelajaran</button>
+          <a href="https://www.youtube.com/watch?v=9YdFM0y12Po" target="_blank"
+            >Akses Video Pembelajaran</a
+          >
+        </div>
+
+        <!-- Video Pembelajaran Card -->
+        <div class="card">
+          <img src="geo.png" alt="" srcset="" />
+          <h3>Geogebra</h3>
+
+          <p>Ayo mengeksplorasi pembuktian Pythagoras</p>
+          <a href="https://www.geogebra.org/classic/uqne2vv4" target="_blank"
+            >Akses GeoGebra</a
+          >
         </div>
       </div>
     </div>
@@ -121,15 +157,23 @@
     <!-- Quiz -->
     <div id="quiz" class="container content">
       <h2>Quiz</h2>
-      <p>Berikut adalah beberapa soal terkait Teorema Pythagoras...</p>
-      <button onclick="accessQuiz()">Akses Quiz</button>
+      <p>Uji kemampuanmu dengan mengerjakan kuis</p>
+      <a
+        href="https://bit.ly/AsesmenFormatifTeoremaPythagoras-sintya"
+        target="_blank"
+        >Akses Quiz</a
+      >
     </div>
 
     <!-- Refleksi -->
     <div id="reflection" class="container content">
       <h2>Refleksi</h2>
-      <p>Refleksi mengenai pemahaman Teorema Pythagoras...</p>
-      <button onclick="accessQuiz()">Akses Quiz</button>
+      <p>Ayo melakukan refleksi pembelajaran hari ini</p>
+      <a
+        href="https://bit.ly/PenilaianDiriTeoremaPythagoras-sintya"
+        target="_blank"
+        >Ikuti Refleksi</a
+      >
     </div>
   </body>
 </html>
