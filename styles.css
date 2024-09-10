@@ -135,13 +135,14 @@ footer {
 
 .card h3 {
   margin-bottom: 10px;
-  font-size: 1.2em;
+  font-size: 1.7em;
+  color: palevioletred;
+  font-family: "Borel", cursive;
 }
 
 .card p {
   margin-bottom: 15px;
   font-size: 1em;
-  color: #666;
 }
 
 /* Button inside card */
