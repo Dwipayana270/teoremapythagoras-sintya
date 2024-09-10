@@ -27,6 +27,12 @@ body {
   padding-bottom: 20px;
 }
 
+ol {
+  border: 2px dotted palevioletred;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 p, li {
   font-family: "McLaren", sans-serif;
   font-weight: 400;
@@ -128,9 +134,7 @@ footer {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  border: palevioletred;
-  border-style: solid;
-  border-width: 1px;
+  border: 2px dotted palevioletred;
 }
 
 .card h3 {
