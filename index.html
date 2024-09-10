@@ -10,41 +10,99 @@
   <body>
     <div class="menu">
       <button onclick="showContent('guide')" class="active">Beranda</button>
-      <button onclick="showContent('objectives')">Petunjuk</button>
-      <button onclick="showContent('quiz')">Quiz</button>
-      <button onclick="showContent('reflection')">Refleksi</button>
-      <button onclick="showContent('guide')" class="active">Beranda</button>
-      <button onclick="showContent('objectives')">Petunjuk</button>
+      <button onclick="showContent('instructions')">Petunjuk</button>
+      <button onclick="showContent('objectives')">Tujuan Pembelajaran</button>
+      <button onclick="showContent('diagnostic')">Asesmen Diagnostik</button>
+      <button onclick="showContent('materials')">Bahan Ajar</button>
       <button onclick="showContent('quiz')">Quiz</button>
       <button onclick="showContent('reflection')">Refleksi</button>
     </div>
+
     <div style="margin: 36px"></div>
 
+    <!-- Beranda -->
     <div id="guide" class="container content active">
       <h2>Teorema Pythagoras</h2>
       <div class="image-container">
         <img src="visual.gif" width="220px" alt="Pythagorean Theorem Diagram" />
       </div>
       <p>Oleh: Ni Luh Sintya Puspita Adi, S.Pd.</p>
-      <p>Oleh: Ni Luh Sintya Puspita Adi, S.Pd.</p>
-      <p>Oleh: Ni Luh Sintya Puspita Adi, S.Pd.</p>
-      <p>Oleh: Ni Luh Sintya Puspita Adi, S.Pd.</p>
-      <p>Oleh: Ni Luh Sintya Puspita Adi, S.Pd.</p>
     </div>
 
+    <!-- Petunjuk -->
+    <div id="instructions" class="container content">
+      <h2>Petunjuk</h2>
+      <p>Berikut adalah langkah-langkah pembelajaran yang perlu kamu ikuti:</p>
+      <ol>
+        <li>Mulai dengan memahami tujuan dari pembelajaran</li>
+        <li>Jawab pertanyaan pada asesmen diagnostik untuk membantu guru memahami tingkat pemahamanmu saat ini</li>
+        <li>Bergabunglah dengan kelompokmu dan diskusikan serta kerjakan Lembar Kerja Peserta Didik (LKPD) yang telah dibagikan</li>
+        <li>Pelajari materi pembelajaran yang relevan dengan mengakses Bahan Ajar</li>
+        <li>Uji pemahamanmu dengan mengerjakan kuis yang telah disediakan</li>
+        <li>Refleksi Pembelajaran Hari ini</li>
+      </ol>
+      <p>Selamat belajar!</p>
+    </div>
+
+    <!-- Tujuan Pembelajaran -->
     <div id="objectives" class="container content">
       <h2>Tujuan Pembelajaran</h2>
-      <p>Dalam sesi ini, kita akan belajar tentang Teorema Pythagoras...</p>
+      <ul>
+        <li>Peserta didik mampu menganalisis beberapa informasi untuk membuktikan Teorema Pythagoras.</li>
+        <li>Peserta didik mampu menentukan sisi salah satu segitiga siku-siku.</li>
+      </ul>
     </div>
 
+    <!-- Asesmen Diagnostik -->
+    <div id="diagnostic" class="container content">
+      <h2>Asesmen Diagnostik</h2>
+      <p>Mengapa Asesmen Diagnostik?</p>
+      <p>Asesmen diagnostik membantu guru memahami kebutuhan belajar kalian secara mendalam, sehingga mereka dapat memberikan bimbingan yang tepat dan sesuai dengan kemampuan masing-masing.</p>
+      <button onclick="accessDiagnostic()">Akses Asesmen Diagnostik</button>
+    </div>
+
+    <!-- Bahan Ajar -->
+    <div id="materials" class="container content">
+      <h2>Bahan Ajar</h2>
+      <p>Pelajari materi terkait Teorema Pythagoras melalui sumber-sumber berikut:</p>
+      
+      <!-- Card container -->
+      <div class="card-container">
+        <!-- LKPD Card -->
+        <div class="card">
+          <h3>LKPD</h3>
+          <p>Lembar Kerja Peserta Didik untuk mendalami Teorema Pythagoras.</p>
+          <button onclick="accessLkpd()">Akses LKPD</button>
+        </div>
+    
+        <!-- Bahan Ajar Card -->
+        <div class="card">
+          <h3>Bahan Ajar</h3>
+          <p>Bahan ajar yang mendukung pembelajaran mengenai Teorema Pythagoras.</p>
+          <button onclick="accessMaterials()">Akses Bahan Ajar</button>
+        </div>
+    
+        <!-- Video Pembelajaran Card -->
+        <div class="card">
+          <h3>Video Pembelajaran</h3>
+          <p>Video penjelasan mengenai konsep Teorema Pythagoras.</p>
+          <button onclick="accessVideo()">Akses Video Pembelajaran</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quiz -->
     <div id="quiz" class="container content">
       <h2>Quiz</h2>
       <p>Berikut adalah beberapa soal terkait Teorema Pythagoras...</p>
+      <button onclick="accessQuiz()">Akses Quiz</button>
     </div>
 
+    <!-- Refleksi -->
     <div id="reflection" class="container content">
       <h2>Refleksi</h2>
       <p>Refleksi mengenai pemahaman Teorema Pythagoras...</p>
+      <button onclick="accessQuiz()">Akses Quiz</button>
     </div>
   </body>
 </html>
