@@ -93,18 +93,19 @@ footer {
 .container button {
   background-color: transparent;
   border: 1px solid #cccccc;
-  padding: 6px 12px;
+  padding: 12px 32px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 16px;
   margin-right: 10px;
   border-radius: 5px;
-  color: white;
+  color: rgb(19, 19, 19);
   margin-bottom: 8px;
+  background-color: orange;
 
 }
 
 .container button:hover {
-  background-color: #faeda3;
+  background-color: rgb(194, 128, 6);
 }
 
 /* Card container for 3-column layout */
@@ -117,11 +118,12 @@ footer {
 
 /* Card design */
 .card {
-  background-color: #f9f9f9;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  border: palevioletred;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .card h3 {
