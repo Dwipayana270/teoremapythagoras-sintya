@@ -5,7 +5,14 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
-  color:orangered;
+  color:palevioletred;
+  margin: 0;
+
+  text-decoration: underline;
+  text-decoration-style: wavy; /* Apply the wavy style */
+  text-decoration-thickness: 4px; /* Adjust the thickness of the underline */
+  text-decoration-color:orange; /* Change the color of the underline */
+  text-underline-offset: 3px;
 }
 body {
   font-family: Arial, sans-serif;
@@ -36,8 +43,8 @@ body {
 }
 
 .menu button.active {
-  background-color: #faeda3;
-  color: #474747;
+  background-color:orange;
+  color: white;
   border-color: transparent;
 }
 
